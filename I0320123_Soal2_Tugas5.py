@@ -1,5 +1,5 @@
-nama = input("Masukkan nama")
-nilai = int(input('Berapa nilai kamu?'))
+nama = input("Masukkan nama anda")
+nilai = int(input('Berapa nilai anda?'))
 
 if nilai >= 85 and nilai <= 100:
     grade = 'A'
@@ -16,5 +16,5 @@ elif nilai >= 60 and nilai <= 64:
 elif nilai < 60:
     grade = 'E'
 else:
-    grade = "Nilai tidak valid"
+    grade = "tidak valid"
 print('Halo,',nama, '! Nilai anda setelah dikonversikan adalah {}'.format(grade))
